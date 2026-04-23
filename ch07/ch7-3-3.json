@@ -43,7 +43,7 @@
     },
     {
       "parameters": {
-        "command": "=C:\\n8n-data\\tools\\pandoc\\pandoc \"{{ $json.sourcePath }}\" -o \"{{ $json.outputPath }}\""
+        "command": "=C:\\n8n-data\\tools\\tools\\pandoc\\pandoc \"{{ $json.sourcePath }}\" -o \"{{ $json.outputPath }}\""
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,

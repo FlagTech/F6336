@@ -49,7 +49,7 @@
     },
     {
       "parameters": {
-        "command": "=C:\\n8n-data\\tools\\wkhtmltox\\bin\\wkhtmltopdf \"{{ $('Edit Fields').item.json.tempPath }}\" \"{{ $('Edit Fields').item.json.outputPath }}\""
+        "command": "=C:\\n8n-data\\tools\\tools\\wkhtmltox\\bin\\wkhtmltopdf \"{{ $('Edit Fields').item.json.tempPath }}\" \"{{ $('Edit Fields').item.json.outputPath }}\""
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
@@ -62,7 +62,7 @@
     },
     {
       "parameters": {
-        "command": "=C:\\n8n-data\\tools\\pandoc\\pandoc -s \"{{ $json.sourcePath }}\" -o \"{{ $json.tempPath }}\""
+        "command": "=C:\\n8n-data\\tools\\tools\\pandoc\\pandoc -s \"{{ $json.sourcePath }}\" -o \"{{ $json.tempPath }}\""
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,

@@ -43,7 +43,7 @@
     },
     {
       "parameters": {
-        "command": "=C:\\n8n-data\\tools\\wkhtmltox\\bin\\wkhtmltopdf \"{{ $json.sourcePath }}\" \"{{ $json.outputPath }}\""
+        "command": "=C:\\n8n-data\\tools\\tools\\wkhtmltox\\bin\\wkhtmltopdf \"{{ $json.sourcePath }}\" \"{{ $json.outputPath }}\""
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
